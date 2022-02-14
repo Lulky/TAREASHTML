@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <div>
+            <h4>First Name: * <input type="text" name="inputText"></h4>
+            <h4>Last Name: * <input type="text" name="inputName"></h4>
+            <h4>Email Address: * <input type="email" name="inputEmail"></h4>
+            <h4>Password: * <input type="password" name="inputPassword"></h4>
+            <h4>Confirm Password: * <input type="password" name="inputPassword"></h4>
+            <h4>Birthday:  <input type="date" name="inputDate"></h4>
+        
+        </div>
+        <div>
+            <h3>Gender Identity:</h3>
+            <input type="radio" name="Identity" value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Identity" value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Identity" value="Non-binary" id="Non-binary">
+            <label for="Non-binary">Non-binary</label>
+            <input type="radio" name="Identity" value="I prefer not to answer">
+            <label for="I prefer not to answer">I prefer not to answer</label>
+
+        </div>
+        <p>A short Description about myself:</p>
+        <textarea name="texto" rows="3" cols="30"></textarea>
+        
+        <h3>Favorite Language: <select name="Favorite Language">
+            <option>JavaScript</option>
+            <option>HTML</option>
+            <option>Pyton</option>
+        </select> </h3>
+        <input type="checkbox" name="emailUpdates" id="emailUpdates">
+            <label for="emailUpdates">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+            <p>* Indicates a required field</p>
+                
+        </div>
+
+    </form>
+    
+       
+</body>
+</html>
