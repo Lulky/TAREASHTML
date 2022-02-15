@@ -1,0 +1,69 @@
+input[type="number"] {
+    width: 500px;
+}
+
+input[name="inputPassword"]{
+    padding: 30px;
+}
+img:hover {
+    border: 1px solid black;
+}/* todas la imagenes al pasar el mouse se forma un border*/
+
+input, textarea { /*la coma significa y, a ambos selectores aplica el css*/
+    background-color: blueviolet;
+}
+#divAbuela input::placeholder {
+    font-style: italic;
+}
+/*COLOR*/
+
+ul {
+    background-color: rgb(255,0,0);
+    color: blue;
+    /*color: #0000ff*/
+}
+/*TEXTO*/
+
+#pEjemplo {
+    text-align: center; /*alinea el parrafo*/
+    text-decoration: underline;/*underline, line-through, none: sirve par los enlaces ya que por default es subrayado, oveerline*/
+    font-style: italic; /*italic, normal*/
+    font-weight: bold; /*normal, bold, light, 100, 200, 300, 900 - dependen del font*/
+    font-family: Arial, Helvetica, sans-serif; /*serif, monspace, cursise*/
+    font-size: 10px; /*px, pt, em diferentes referencia a los tamaños*/
+}
+
+
+
+
+/*TAMAÑO*/
+.pruebaTamanos {
+    backgroud-color: blue;
+    widht: 500px;
+    heigh: 300px;
+    overflow: hidden; /*hidden, scroll*/
+
+    
+}
+.pruebaOverflow {
+    background-color: black;
+    width: 200px;
+    heigh:800px;
+}
+
+/*BACKGROUND*/
+/*dentro de formularios dentro de divs etc*/
+   .pruebaTamanos {
+    background-color:blue ;
+    background-image: url("../img/gatito_small.jpg");
+    background-repeat: no-repeat;/*no-repeat, repeat-x, repeat-y, repeat*/
+    background-size: cover; /*auto, cover_estirar la imagen para cubrirapra cubrir lo mejor al div, 100% __ se ve la imagen completa pero sobra espacio*/
+}
+    /*BOX MODEL*/
+    .modelodecaja {
+        width: 100px;
+        heigh:100x;
+        background-color: chartreuse;
+        padding: 10x;
+        margin: 10px;
+    }
